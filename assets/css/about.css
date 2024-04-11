@@ -1,0 +1,59 @@
+.page-about {
+  padding: 50px 20px;
+}
+.about__titles {
+  max-width: 593px;
+}
+.about__titles h2 {
+  margin-bottom: 10px;
+}
+.about__card-list {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+.about-card-item {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.about-card-item footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-about__choice-block {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+.choice-block__btn {
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.page-about__profile-list {
+  display: flex;
+  gap: 20px;
+  border-top: 1px solid #dbdbdb;
+}
+
+.profile-item {
+  border: 1px solid #777272;
+  padding: 10px;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.profile-item__date {
+  display: flex;
+  gap: 8px;
+}
